@@ -1,0 +1,23 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated documentation
+docs/_build/
+
+# Local IDE and OS files
+.idea/
+.DS_Store
